@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A solution to the 'Musuem of Candy' Bootstrap challenge from Colt Steele's Web Development Bootcamp on Udemy.">
     <!-- Favicons -->    
     <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -48,7 +49,7 @@
     </header>
     <main>
       <section class="container-fluid row m-0" id="hero">
-        <div class="col-lg-6 text-center d-flex flex-column align-items-center justify-content-center section-text d-none d-lg-flex">
+        <div class="col-lg-6 text-center d-flex flex-column align-items-center justify-content-center section-text d-none d-lg-flex" aria-hidden="true">
           <h1>Who<span class="slash">/</span>wants<span class="slash">/</span>Candy?</h1>
           <h1 role="presentation">Who<span class="slash">/</span>wants<span class="slash">/</span>Candy?</h1>
           <h1 role="presentation">Who<span class="slash">/</span>wants<span class="slash">/</span>Candy?</h1>
@@ -57,33 +58,35 @@
           <h1 role="presentation">Who<span class="slash">/</span>wants<span class="slash">/</span>Candy?</h1>
           <h1 role="presentation">Who<span class="slash">/</span>wants<span class="slash">/</span>Candy?</h1>
         </div>
-        <div class="col-lg-6"><img class="img-fluid" src="imgs/hand2.png" alt="A hand with a pink rubber glove holding a white and pink striped donut."></div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="imgs/hand2-960w.png" width="1480" height="1480" alt="A hand with a pink rubber glove holding a white and pink striped donut.">
+        </div>
       </section>
-      <section id="about" class="container-fluid row m-0">
-        <div class="col-lg-6 order-2"><img class="img-fluid" src="imgs/milk.png" alt="Three small bottles of milk with small colourful donuts with sprinkles being held by colourful striped straws."></div>
+      <section id="about" class="container-fluid row m-0" aria-label="About">
+        <div class="col-lg-6 order-2"><img class="img-fluid" src="imgs/milk-960w.png" width="1480" height="1480" alt="Three small bottles of milk with small colourful donuts with sprinkles being held by colourful striped straws."></div>
         <div class="col-lg-6 order-lg-2 text-center d-flex flex-column align-items-center justify-content-center section-text">
           <h2>A sweet history</h2>
-          <img src="imgs/lolli_icon.png" alt="" class="">
+          <img src="imgs/lolli-icon.png" width="128" height="128" alt="">
           <p>The origin of candy can be traced to the ancient Egyptians who combining fruits and nuts with honey. Around the same time, Greeks used honey to make candied fruits and flowers.<br><br>First modern candies were made in 16th century and sweet manufacturing developed rapidly into an industry during the early 19th century.</p>
         </div>
       </section>
-      <section id="location" class="container-fluid row m-0">
+      <section id="location" class="container-fluid row m-0" aria-label="Location">
         <div class="col-lg-6 text-center d-flex flex-column align-items-center justify-content-center section-text">
           <h2>Location</h2>
-          <img src="imgs/lolli_icon.png" alt="">
+          <img src="imgs/lolli-icon.png" width="128" height="128" alt="">
           <h3 class="mb-4">We're located at:</h3>
           <p>123 Fake Street</p>
           <p>London</p>
           <p>United Kingdom</p>
           <button class="btn btn-light mt-4">Get directions</button>
         </div>
-        <div class="col-lg-6"><img class="img-fluid" src="imgs/gumball.png" alt="A soft pink machine that dispenses white candy balls on a light blue background."></div>
+        <div class="col-lg-6"><img class="img-fluid" src="imgs/gumball-960w.png" width="1480" height="1480" alt="A soft pink machine that dispenses white candy balls on a light blue background."></div>
       </section>
-      <section id="tickets" class="container-fluid row m-0">
-        <div class="col-lg-6 order-2"><img class="img-fluid" src="imgs/sprinkles.png" alt="Lots of colourful sprinkles being thrown in the air from a champagne glass being held by a human with lilac nail polish."></div>
+      <section id="tickets" class="container-fluid row m-0" aria-label="Tickets">
+        <div class="col-lg-6 order-2"><img class="img-fluid" src="imgs/sprinkles-960w.png" width="1480" height="1480" alt="Lots of colourful sprinkles being thrown in the air from a champagne glass being held by a human with lilac nail polish."></div>
         <div class="col-lg-6 order-lg-2 text-center d-flex flex-column align-items-center justify-content-center section-text">
           <h2>Tickets</h2>
-          <img src="imgs/lolli_icon.png" alt="">
+          <img src="imgs/lolli-icon.png" width="128" height="128" alt="">
           <h3 class="mb-2">Skip the queue</h3>
           <p>We recommend buying your tickets in advance to secure your spot.</p>
           <p>You also get to skip the queue with advance tickets.</p>
@@ -97,9 +100,9 @@
       </div>
       <div class="d-flex justify-content-center">
         <ul class="nav">
-          <li class="p-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li class="p-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook"></i></a></li>
-          <li class="p-3"><a class="text-muted" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="p-3"><a class="text-muted" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="p-3"><a class="text-muted" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+          <li class="p-3"><a class="text-muted" href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
       </div>
     </footer>
