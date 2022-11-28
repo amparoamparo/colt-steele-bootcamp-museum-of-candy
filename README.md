@@ -9,17 +9,26 @@ This is my solution to the "Museum of Candy" challenge from Colt Steele's Web De
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
+A simple project to practise Bootstrap 5.
+
 ### Screenshots
 
-- ![Desktop view screenshot](screenshots/screenshot-desktop.png)
-- ![Tablet view screenshot](screenshots/screenshot-desktop.png)
-- ![Mobile view screenshot](screenshots/screenshot-desktop.png)
+#### Desktop
+
+![Desktop view screenshot](screenshots/desktop-screenshot.png)
+
+#### Tablet
+
+![Tablet view screenshot](screenshots/tablet-screenshot.png)
+
+#### Mobile
+
+![Mobile view screenshot](screenshots/mobile-screenshot.png)
 
 ### Links
 
@@ -33,10 +42,6 @@ This is my solution to the "Museum of Candy" challenge from Colt Steele's Web De
 - CSS custom properties
 - Flexbox
 - Font Awesome
-
-### What I learned
-
-This project was meant to practise Bootstrap.
 
 ### Useful resources
 
