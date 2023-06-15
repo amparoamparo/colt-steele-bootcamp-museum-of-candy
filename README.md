@@ -32,7 +32,7 @@ A simple project to practise Bootstrap 5.
 
 ### Links
 
-- [Live Site](https://amparoamparo.github.io/colt-steele-bootcamp-museum-of-candy/)
+- [Live version]([https://amparoamparo.github.io/colt-steele-bootcamp-museum-of-candy/](https://colt-steele-museum-of-candy.vercel.app/))
 
 ## My process
 
